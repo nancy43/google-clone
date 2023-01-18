@@ -1,41 +1,87 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
+  <title>Google Clone</title>
+  <link rel="icon" href="./images/favicon.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+  <!-- Google Font Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <script src="/js/main.js"></script>
 </head>
 
 <body>
+<!-- Header -->
+<header id="header-bar" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+  <span class="header-left header-footer-link">About</span>
+  <span class="header-left header-footer-link">Store</span>
+  <span class="header-right sign-in-button"><a target='_blank' href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.uk/%3Fgws_rd%3Dssl" class="colorfix"><button class="btn" role="button">Sign in</button></a></span>
+  <span class="header-right header-footer-link"><span class="material-symbols-outlined"> apps </span></span>
+  <span class="header-right header-footer-link">Images</span>
+  <span class="header-right header-footer-link">Gmail</span>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+</header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!-- Content -->
+<section class="content-section">
+  <div class="content-wrapper">
+    <img class="logo-img" src="./images/logo.jpg" alt="google logo">
+    <div class="search-bar">
+      <i class="fas fa-search"></i>
+      <!-- Search Box -->
+      <input type="text">
+      <i class="fas fa-microphone"></i>
+      <i class="fas fa-camera"></i>
+    </div>
+    <div class="search-btns">
+      <button class="google-search-btn">Google Search</button>
+      <button class="lucky-search-btn">I'm Feeling Lucky</button>
+    </div>
+    <div class="language">
+      <p>Google Offered in: <a href="">Français</a></p>
+    </div>
+  </div>
+</section>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Footer -->
+<footer>
+  <div class="footer-content upper-footer">
+    <p> Canada </p>
+  </div>
+  <div class="footer-content lower-footer">
+    <ul class="lower-left-footer">
+      <li>
+        <a href="">About</a>
+      </li>
+      <li>
+        <a href="">Advertising</a>
+      </li>
+      <li>
+        <a href="">Business</a>
+      </li>
+      <li>
+        <a href="">How Search Works</a>
+      </li>
+    </ul>
+
+    <ul class="lower-right-footer">
+      <li>
+        <a href="">Privacy</a>
+      </li>
+      <li>
+        <a href="">Terms</a>
+      </li>
+      <li>
+        <a href="">Settings</a>
+      </li>
+    </ul>
+  </div>
+</footer>
 </body>
-
+<script src="/js/main.js"></script>
 </html>
